@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="handCric.css">
+        <script src="handCric.js" defer></script>
+    </head>
+
+    <body>
+        <h1>HAND CRICKET</h1>
+
+        <section class = "displayArea">
+
+            <div class = "ScoreBoard">
+                <h2 id = "score">0</h2>
+                <h2 id = "status">Toss</h2>
+                <h2 id= "message">Message</h2>
+            </div>
+
+            <div class = "playerhands">
+                <img id="player1hand" class = "playerhand" src="images\hand0.jpg">
+                <img id="player2hand" class = "playerhand" src="images\hand2.jpg">
+            </div>
+            
+        </section>
+
+        <section id="oddEvenBox">
+            <h1>Toss</h1>
+            <h2>Choose Odd or Even</h2>
+            <button onclick="OddEvenBtn('odd')" id="OddBtn">ODD</button>
+            <button onclick="OddEvenBtn('even')" id="EvenBtn">EVEN</button>
+        </section>
+
+        <section id="batBallBoxChoice">
+            <h1>You Won The Toss</h1>
+            <h2>Choose to</h2>
+            <button onclick="BatBallBtn('batting')" id="OddBtn">BAT</button>
+            <button onclick="BatBallBtn('balling')" id="EvenBtn">BALL</button>
+        </section>
+
+        <section id="playAgainBox">
+            <h1>Well Played</h1>
+            <button onclick="playAgain()" id="OddBtn">Play Again</button>
+        </section>
+
+        <section id="batBallBoxDeclaration">
+            <h1>You Lost The Toss</h1>
+            <h2 id="autoChoose"></h2>
+        </section>
+
+
+
+        
+        <img id="ScoreBoard" src = "images\hand0.jpg">
+       
+        <div class="RunButtons">
+            <button class="RunButton" id="0runs">
+                <img onclick="runThis(0)" src="images\hand0.jpg">
+            </button>
+
+            <button  class="RunButton" id="1runs">
+                <img onclick="runThis(1)" src="images\hand1.jpg">
+            </button>
+
+            <button class="RunButton" id="2runs">
+                <img onclick="runThis(2)" src="images\hand2.jpg">
+            </button>
+
+            <button class="RunButton" id="3runs">
+                <img onclick="runThis(3)" src="images\hand3.jpg">
+            </button>
+
+            <button class="RunButton"  id="4runs">
+                <img onclick="runThis(4)" src="images\hand4.jpg">
+            </button>
+
+            <button class="RunButton" id="5runs">
+                <img onclick="runThis(5)" src="images\hand5.jpg">
+            </button>
+
+            <button class="RunButton"  id="6runs">
+                <img onclick="runThis(6)" src="images\hand6.jpg">
+            </button>
+        </div>
+
+    </body>
+</html>

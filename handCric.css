@@ -1,0 +1,110 @@
+h1 {
+    text-align: center;
+}
+
+.RunButtons {
+    display: none;
+    position: absolute;
+    width:max-content;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.RunButton {
+    padding: 0%;
+    border-radius: 5px;
+    margin: 10px
+}
+
+.RunButton:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+#ScoreBoard{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+    width: 30%;
+}
+
+.ScoreBoard > h2{
+    margin: 1px;
+}
+
+#score{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.displayArea {
+    text-align: center;
+}
+
+.playerhand{
+    width: 25%;
+}
+#player1hand {
+    position: fixed;
+    left: 15%;
+}
+
+#player2hand {
+    position: fixed;
+    right: 15%;
+    transform: rotateY(180deg);
+}
+
+#oddEvenBox{
+    text-align: center;
+    background-color: cadetblue;
+    height: fit-content;
+    width: fit-content;
+    padding: 3px 20px 10px 20px;
+    border-radius: 5%;
+
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%);
+}
+
+#OddBtn,#EvenBtn {
+    padding: 10px;
+    background-color: red;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20%;
+}
+
+#OddBtn:hover,#EvenBtn:hover {
+    padding: 10px;
+    background-color: rgb(188, 0, 0);
+    margin: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#oddEvenBox > h1 {
+    line-height: 10px;
+    font-size: 35px;
+}
+
+#batBallBoxChoice,#batBallBoxDeclaration,#playAgainBox {
+    display: none;
+    text-align: center;
+    background-color: cadetblue;
+    height: fit-content;
+    width: fit-content;
+    padding: 3px 20px 10px 20px;
+    border-radius: 5%;
+
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%);
+}
