@@ -6,7 +6,7 @@ h1 {
     display: none;
     position: absolute;
     width:max-content;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
 }
