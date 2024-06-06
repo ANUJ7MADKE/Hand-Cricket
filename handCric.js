@@ -184,10 +184,11 @@ function runThis(playerHandnumber){
                     score.textContent = 0
                     batBallBoxDeclaration.style.display = 'none'
                     message.textContent = ''
+                    buttonArea.style.display = 'block'
                 }, 5000);
 
 
-                buttonArea.style.display = 'block'
+                
     
             }
         }else if (OddOrEven == 'odd'){
@@ -210,10 +211,11 @@ function runThis(playerHandnumber){
                     score.textContent = 0
                     batBallBoxDeclaration.style.display = 'none'
                     message.textContent = ''
+                    buttonArea.style.display = 'block'
                 }, 5000);
 
 
-                buttonArea.style.display = 'block'
+                
                 
             }
             else{
