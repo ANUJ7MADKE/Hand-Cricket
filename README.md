@@ -1,4 +1,5 @@
 # Hand-Cricket
+### Checkout - https://anuj7madke.github.io/Hand-Cricket/
 
 This project is a web-based implementation of the popular game "Hand Cricket." 
 The game allows a player to compete against a computer by selecting odd or even, batting or bowling, and scoring runs.
